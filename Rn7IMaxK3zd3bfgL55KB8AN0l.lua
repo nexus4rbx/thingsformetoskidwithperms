@@ -4,7 +4,7 @@ local playersService = game:GetService("Players")
 local MakeDarker = {["Enabled"] = true}
 local Blurr = {["Enabled"] = true}
 local Padding = {["Value"] = 3}
-local Rounding = {["Value"] = 8}
+local Rounding = {["Value"] = 32}
 
 local color1 = Color3.fromRGB(50, 50, 255)
 local color2 = Color3.fromRGB(50, 50, 255)
