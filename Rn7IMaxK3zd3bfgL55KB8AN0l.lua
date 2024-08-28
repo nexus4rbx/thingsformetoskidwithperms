@@ -6,8 +6,8 @@ local Blurr = {["Enabled"] = true}
 local Padding = {["Value"] = 3}
 local Rounding = {["Value"] = 12}
 
-local color1 = Color3.fromRGB(93, 63, 211)
-local color2 = Color3.fromRGB(93, 63, 211)
+local color1 = Color3.fromRGB(0, 0, 255)
+local color2 = Color3.fromRGB(0, 0, 255)
 
 function hotbarMods()
     repeat task.wait() until playersService.LocalPlayer.PlayerGui and playersService.LocalPlayer.PlayerGui:FindFirstChild("hotbar") and playersService.LocalPlayer.PlayerGui:FindFirstChild("hotbar"):FindFirstChild("1")
