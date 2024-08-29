@@ -3,7 +3,7 @@ local blur = loadstring(game:HttpGet("https://raw.githubusercontent.com/boykisse
 local playersService = game:GetService("Players")
 local MakeDarker = {["Enabled"] = true}
 local Blurr = {["Enabled"] = true}
-local Padding = {["Value"] = 3}
+local Padding = {["Value"] = 5}
 local Rounding = {["Value"] = 12}
 
 local color1 = Color3.fromRGB(0, 0, 255)
